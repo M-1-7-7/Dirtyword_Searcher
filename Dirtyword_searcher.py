@@ -22,10 +22,12 @@ root.geometry("800x600")
 root.title("Dirty Word Searcher")
 frm = ttk.Frame(root, padding=10)
 frm.grid()
+
 # user input variriables
 DW_Var=tkinter.StringVar()
 start_dir_Var=tkinter.StringVar()
 out_dir_Var=tkinter.StringVar()
+
 # buttons states
 Excel_Button_Val = IntVar() 
 PDF_Button_Val = IntVar()  
@@ -33,7 +35,8 @@ PowerPoint_Button_Val = IntVar()
 Doc_Button_Val = IntVar() 
 TXT_Button_Val = IntVar() 
 All_Other_Type_Button_Val = IntVar()
-All_Document_Type_Button_Val = IntVar() 
+All_Document_Type_Button_Val = IntVar()
+
 # Global variables
 global DW_Var_stripped
 global out_dir_Var_stripped
